@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="DemoVirtusa">
-    <listeners>
-        <listener class-name="org.testng.reporters.EmailableReporter" />
-        <listener class-name="org.testng.reporters.XMLReporter" />
-        <listener class-name="org.testng.reporters.TestHTMLReporter" />
-        <listener class-name="org.testng.reporters.JUnitReportReporter" />
-    </listeners>
-    <test name="DemoVirtusa">
+<suite name="Testing Google Apps">
+    <test name="Regression">
         <classes>
-            <class name="org.example.DemoTest"/>
+            <class name="Runner.TestRunner"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
